@@ -1,3 +1,7 @@
+# Signup page for merchant onboarding
+<img src='./public/output.png'>
+<img src='./public/output1.png'>
+
 # Deployed
 
 To view the deployed app [click here](https://merchant-onboarding.netlify.app/).
