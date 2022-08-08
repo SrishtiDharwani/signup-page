@@ -27,7 +27,7 @@ const TaxDetails = ({ sellerData, setSellerData }) => {
             setSellerData({ ...sellerData, pan: event.target.value })
           }
         />
-        {(sellerData.gst.length < 15 || sellerData.pan.length < 10) && <Div />}
+        {(sellerData.gst.length !== 15 || sellerData.pan.length !== 10) && <Div />}
       </div>
     </div>
   );
