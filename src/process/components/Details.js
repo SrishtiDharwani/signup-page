@@ -43,8 +43,7 @@ const Details = ({ sellerData, setSellerData }) => {
         <p>Your business email</p>
         <input
           type="text"
-          placeholder="Business email"
-          required
+          placeholder="Business email (optional)"
           value={sellerData.bMail}
           onChange={(event) =>
             setSellerData({ ...sellerData, bMail: event.target.value })
@@ -52,7 +51,6 @@ const Details = ({ sellerData, setSellerData }) => {
         />
 
         {(sellerData.name.length === 0 ||
-          !sellerData.bMail.includes("@") ||
           sellerData.mobNo.length < 10) && <Div />}
       </div>
     </div>

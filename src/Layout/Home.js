@@ -21,10 +21,10 @@ const Home = () => {
           <p style={{ fontSize: "80px",fontWeight:'600'}}>
             Start selling with
             <br />
-            SELL. <br />Today.
+            WISH. <br />Today.
           </p>
           <Link to="/signup">
-            <button className="button">Signup/ Login</button>
+            <button className="button">Sign up/ Login</button>
           </Link>
           <div
             style={{

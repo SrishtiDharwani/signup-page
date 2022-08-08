@@ -39,7 +39,7 @@ const Agreement = ({ sellerData, setSellerData }) => {
                 onChange={handleChange}
               />
               I have <b>read and agree</b> to comply and/or be bound by the
-              <b> terms and conditions of SELL</b>.
+              <b> terms and conditions of WISH</b>.
             </p>
           </div>
           {(sellerData.businessName.length === 0 || !checked) &&<Div />}
