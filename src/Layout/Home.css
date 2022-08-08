@@ -1,0 +1,33 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+
+}
+.head {
+  flex: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.display-img {
+    display: flex;
+    flex:50%;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+  margin-left: 2rem;line-height: 30px;
+  text-decoration: none;
+  border-radius: 7px;
+  width: 300px;
+  height: 60px;
+  background-color: rgb(255, 0, 140);
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 20px 5px;
+  margin: 5px;
+}

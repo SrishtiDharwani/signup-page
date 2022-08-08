@@ -1,0 +1,160 @@
+.progressbar {
+  width: 100%;
+  height: 10px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.progressbar div {
+  width: 33.3%;
+  height: 100%;
+  background-color: rgb(98, 0, 255);
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.form-container .headerr {
+  flex: 20%;
+  display: grid;
+  place-items: center;
+}
+
+.form-container .body {
+  flex: 60%;
+  display: grid;
+  place-items: center;
+}
+
+.form-container .footer {
+  flex: 20%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.form-container .footer button {
+  border-radius: 7px;
+  width: 150px;
+  height: 40px;
+  background-color: rgb(255, 0, 140);
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 20px 5px;
+  margin: 5px;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  width: 100;
+  align-items: center;
+}
+.details-container {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-container input {
+  margin: 0px;
+  width: 290px;
+  height: 30px;
+  padding-left: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.details-container p {
+  margin-bottom: 0.3px;
+  font-weight: bold;
+}
+
+.details-container div {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  display: block;
+}
+
+.agreement {
+  padding: 10px;
+  width: 80%;
+}
+
+#terms {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+#category {
+  margin: 0px;
+  width: 310px;
+  height: 30px;
+  padding-left: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.toggle {
+  margin-top: 1rem;
+  background-color: transparent;
+  font-size: 18px;
+  color: black;
+  border: none;
+  padding: 0.1rem 1rem;
+}
+.toggle:hover {
+  background-color: transparent;
+  color: rgb(255, 0, 140);
+  cursor: pointer;
+}
+
+.bottom {
+  display:flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  z-index: 1;
+}
+
+.button-control {
+  width: 250px;
+  height: 40px;
+  background-color: rgb(255, 0, 140);
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+  justify-content: center;
+  border: 0 none;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 20px 5px;
+}
